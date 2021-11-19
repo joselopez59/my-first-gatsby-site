@@ -23,4 +23,5 @@ collections:
       - { label: 'Image', name: 'hero_image', widget: 'image' }
       - { label: 'Image alt', name: 'hero_image_alt', widget: 'string' }
       - { label: 'Author', name: 'hero_image_credit_text', widget: 'string' }
+      - { label: 'Link', name: 'hero_image_credit_text_link', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
