@@ -20,6 +20,7 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Image', name: 'hero_image', widget: 'image' }
       - { label: 'Image alt', name: 'hero_image_alt', widget: 'string' }
       - { label: 'Author', name: 'hero_image_credit_text', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
