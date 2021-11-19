@@ -5,7 +5,7 @@ import Layout from '../../components/layout'
 
 const BlogPage = ({ data }) => {
 
-  console.log('data', data)
+  // console.log('data', data)
   return (
     <Layout pageTitle="My Blog Posts">
       

@@ -11,7 +11,6 @@ module.exports = {
       options: {
         name: `blog`,
         path: `${__dirname}/blog`,
-        // path: `${__dirname}/content/blog`,
       }
     },
     // "gatsby-plugin-mdx",
@@ -21,6 +20,7 @@ module.exports = {
         extensions: [`.mdx`, `.md`],
       }
     },
-    "gatsby-plugin-netlify-cms"
+    "gatsby-plugin-netlify-cms",
+    "gatsby-transformer-sharp",
   ],
 };
