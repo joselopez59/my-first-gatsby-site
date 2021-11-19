@@ -14,7 +14,13 @@ module.exports = {
         path: `${__dirname}/content/blog`,
       }
     },
-    "gatsby-plugin-mdx",
+    // "gatsby-plugin-mdx",
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
+      }
+    },
     "gatsby-plugin-netlify-cms"
   ],
 };
